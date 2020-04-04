@@ -36,7 +36,7 @@ def myFunction(excelName,findIntentation,writeFilename):
 			ValueIndexObj=df2[df2 == df2.max()].dropna()
 			for j in range(len(ValueIndexObj)):
 				indx=ValueIndexObj.index[j]
-				s1='\\textbf{'+str(df1.iloc[i,indx])+'}'
+				s1='\\textbf{$'+str(df1.iloc[i,indx])+'$}'
 				df1.iloc[i,indx]=s1
 
 	df1 = df1.astype(str)
