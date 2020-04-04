@@ -4,7 +4,8 @@ Code:
 	This code generates equivalent Latex command where 
 		the minimum or maximum values in a row are bold.
 Parameters: 
-	inputExcel:	Excel file from where the data is to be read,
+	inputExcel:	Excel file from where the data is to be read
+	and Minimum or maximum value is find row-wise.
 	operator: Minimum or Maximum
 	outputCSV: File in which output will be saved 
 Author: Himanshu Mittal		
