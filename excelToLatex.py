@@ -29,7 +29,7 @@ def myFunction(excelName,findIntentation,writeFilename):
 			ValueIndexObj=df2[df2 == df2.min()].dropna()
 			for j in range(len(ValueIndexObj)):
 				indx=ValueIndexObj.index[j]
-				s1='\\textbf{'+str(df1.iloc[i,indx])+'}'
+				s1='\\textbf{$'+str(df1.iloc[i,indx])+$'}'
 				df1.iloc[i,indx]=s1
 		else:
 			df2=df1.iloc[i,:-1]
